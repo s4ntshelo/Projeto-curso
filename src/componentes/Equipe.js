@@ -1,7 +1,7 @@
 function Equipe(){
     return(
         <div>
-            <h1>Rota não existe!!!</h1>
+            <h1>Heloá Vitória Dos Santos</h1>
         </div>
     )
 }
