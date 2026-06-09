@@ -2,10 +2,12 @@
 
 header{
   width: 100%;
+  height: 150px;
   background-color: #dcdcdd;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 header .headerTopo{
@@ -28,6 +30,14 @@ header .headerMenu li{
   font-size: 25px;
 }
 
+header .headerMenu li a{
+  color: hsl(346, 100%, 81%);
+}
+
+header .headerMenu li a:hover {
+  color: rgb(255, 225, 238);
+}
+
 /*footer*/
 
 footer {
@@ -36,24 +46,33 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #333;
+  background-color: #ffc9c9;
 }
 
 footer  .menuFooter {
   width: 20%;
+  margin-left: 20px;
 }
 
 footer .menuFooter ul{
   list-style: none;
 }
 
-footer .menu li{
+footer .menuFooter li{
   font-size: 18px;
   height: 25px;
 }
 
+footer .menuFooter li a{
+  color: #333;
+}
+
+footer .menuFooter li a:hover{
+  color: rgb(255, 67, 152);
+}
+
 footer .credenciais {
-  width: 80%;
+  width: 60%;
   text-align: center;
 }
 
